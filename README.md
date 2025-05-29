@@ -82,7 +82,7 @@ Facilitar la creación rápida de presentaciones a partir de archivos `.md`, `.m
 
 * Elimina los signos de numeral `#` del inicio.
 * Limpia el texto eliminando referencias y espacios innecesarios.
-* Si el título está vacío, lo reemplaza por `"Diapositiva N"` (donde N es el número correspondiente).
+* Si el título está vacío, lo reemplaza por `"Diapositiva N"`, donde `N` es el número correspondiente (opcional).
 * Devuelve el texto limpio que se usará como título de la diapositiva.
 
 ### `EsVineta(linea)`
