@@ -227,10 +227,10 @@ Function ObtenerTitulo(linea As String) As String
     ' Limpiar referencias PERO NO agregar punto final a los títulos
     titulo = LimpiarTexto(titulo)
     
-    If titulo = "" Then
-        titulo = "Diapositiva " & (ActivePresentation.Slides.Count + 1)
-    End If
-    
+    ' If titulo = "" Then
+    '     titulo = "Diapositiva " & (ActivePresentation.Slides.Count + 1)
+    ' End If
+   
     ObtenerTitulo = titulo
 End Function
 
